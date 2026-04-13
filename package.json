@@ -1,0 +1,8 @@
+{
+  "name": "nexudyam",
+  "version": "1.0.0",
+  "description": "NexUdyam modern website",
+  "scripts": {
+    "dev": "npx serve ."
+  }
+}
