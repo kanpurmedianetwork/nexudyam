@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+  
+  --color-surface: #0a0a0a;
+  --color-surface-light: #111111;
+  
+  --color-accent: #ffffff;
+  --color-text-muted: #888888;
+  --color-border-subtle: #1a1a1a;
+
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-inter);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.stark-card {
+  background: var(--color-background);
+  border: 1px solid var(--color-border-subtle);
+  transition: background-color 0.2s ease;
+}
+.stark-card:hover {
+  background: var(--color-surface);
+}
+
+.text-heading {
+  font-family: var(--font-heading);
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}

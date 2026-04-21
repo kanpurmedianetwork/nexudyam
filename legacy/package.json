@@ -1,0 +1,12 @@
+{
+  "name": "nexudyam",
+  "version": "1.0.0",
+  "description": "NexUdyam modern website",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "dependencies": {
+    "pdf-parse": "^2.4.5",
+    "pdfreader": "^3.0.8"
+  }
+}
